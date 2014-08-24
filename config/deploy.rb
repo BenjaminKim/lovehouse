@@ -1,5 +1,5 @@
 set :application, 'lovehouse'
-set :repo_url, 'git@git.petabytes.org:benjamin/lovehouse.git'
+set :repo_url, 'git@github.com:BenjaminKim/lovehouse.git'
 set :branch, 'master'
 set :rails_env, 'production'
 #ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
