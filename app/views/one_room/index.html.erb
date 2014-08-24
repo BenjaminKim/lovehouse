@@ -1,0 +1,66 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-lg-12">
+      <h3 class="label label-info">One room</h3>
+
+      <!--<h1 class="label label-warning">하단 사진에서 보여지는 침대는 제공되지 않음에 주의를 부탁드립니다.</h1>-->
+      <h3 class="label label-warning">하단 사진에서 보여지는 침대도 새 것으로 제공됩니다.</h3>
+      <h3 class="label label-warning">혼자 살기 적당하며 둘이 살기엔 좁은 공간 입니다.</h3>
+    </div>
+  </div>
+  <p>
+
+  <div class="row">
+    <div class="col-lg-3">
+      <legend>옵션들</legend>
+      <%= image_tag('one/options.jpg', class: 'img-rounded image-responsive') %>
+    </div>
+    <div class="col-lg-3">
+      <legend>방</legend>
+      <%= image_tag('one/room.jpg', class: 'img-rounded image-responsive') %>
+    </div>
+
+    <div class="col-lg-3">
+      <legend>방2</legend>
+      <%= image_tag('one/room2.jpg', class: 'img-rounded image-responsive') %>
+    </div>
+
+    <div class="col-lg-3">
+      <legend>방3</legend>
+      <%= image_tag('one/room3.jpg', class: 'img-rounded image-responsive') %>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-lg-3">
+      <legend>화장실</legend>
+      <%= image_tag('one/restroom.jpg', class: 'img-rounded image-responsive') %>
+    </div>
+
+    <div class="col-lg-3">
+      <legend>화장실2</legend>
+      <%= image_tag('one/restroom2.jpg', class: 'img-rounded image-responsive') %>
+    </div>
+
+    <div class="col-lg-3">
+      <legend>전체</legend>
+      <%= image_tag('one/overview.jpg', class: 'img-rounded image-responsive') %>
+    </div>
+
+    <div class="col-lg-3">
+      <legend>전체2</legend>
+      <%= image_tag('one/overview2.jpg', class: 'img-rounded image-responsive') %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-3">
+      <legend>전체3</legend>
+      <%= image_tag('one/violet.jpg', class: 'img-rounded image-responsive') %>
+    </div>
+  </div>
+  <p><%= link_to '가격 및 기타 정보 확인하러 가기', home_path(anchor: 'one_room'), class: 'btn btn-primary btn-block' %></p>
+
+  <p><%= link_to '찾아 오시는 길', map_path, class: 'btn btn-info btn-block' %></p>
+</div>

@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-lg-12">
+      <h1 class="label label-info">Two room</h1>
+      <h1 class="label label-warning">사진보다 큰 집이며 전망도 좋으므로 실제로 보시기를 적극 권해드립니다.</h1>
+    </div>
+  </div>
+  <p>
+  <div class="row">
+    <div class="col-lg-3">
+      <legend>안방</legend>
+      <%= image_tag('two/main-room.jpg', class: 'img-rounded') %>
+    </div>
+
+    <div class="col-lg-3">
+      <legend>현관</legend>
+      <%= image_tag('two/outdoor.jpg', class: 'img-rounded') %>
+    </div>
+
+    <div class="col-lg-3">
+      <legend>작은방</legend>
+      <%= image_tag('two/small-room.jpg', class: 'img-rounded') %>
+    </div>
+
+    <div class="col-lg-3">
+      <legend>부엌</legend>
+      <%= image_tag('two/kitchin.jpg', class: 'img-rounded') %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-3">
+      <legend>화장실</legend>
+      <%= image_tag('two/restroom.jpg', class: 'img-rounded') %>
+    </div>
+
+    <div class="col-sm-12 col-lg-9">
+      <legend>안방에서 찍은 전경</legend>
+      <%= image_tag('two/landscape.jpg') %>
+    </div>
+  </div>
+  
+  <p><%= link_to '가격 및 기타 정보 확인하러 가기', home_path(anchor: 'two_room'), class: 'btn btn-primary btn-block' %></p>
+  <p><%= link_to '찾아 오시는 길', map_path, class: 'btn btn-info btn-block' %></p>
+</div>

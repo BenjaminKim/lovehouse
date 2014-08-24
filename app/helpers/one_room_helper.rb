@@ -1,0 +1,2 @@
+module OneRoomHelper
+end
