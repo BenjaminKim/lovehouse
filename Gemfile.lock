@@ -50,7 +50,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.7.1)
+    coffee-script-source (1.8.0)
     colorize (0.7.3)
     erubis (2.7.0)
     execjs (2.2.1)
@@ -69,12 +69,12 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    minitest (5.4.0)
+    minitest (5.4.1)
     multi_json (1.10.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
-    newrelic_rpm (3.9.2.239)
+    newrelic_rpm (3.9.3.241)
     polyglot (0.3.5)
     quiet_assets (1.0.3)
       railties (>= 3.1, < 5.0)
