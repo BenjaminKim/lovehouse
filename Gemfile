@@ -41,4 +41,4 @@ gem 'capistrano-bundler', group: :development
 gem 'bootstrap-sass'
 gem 'quiet_assets'
 gem 'awesome_print', group: :development
-gem 'newrelic_rpm'
+#gem 'newrelic_rpm'
