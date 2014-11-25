@@ -17,6 +17,7 @@ set :log_level, :debug
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/system}
 
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
+set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 set :keep_releases, 5
 
 set :unicorn_rack_env, :production
