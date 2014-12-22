@@ -29,14 +29,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 gem 'unicorn'
 
-gem 'capistrano-rvm'
-
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
 gem 'bootstrap-sass'
 gem 'quiet_assets'
-gem 'awesome_print', group: :development
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -49,8 +46,11 @@ group :development, :test do
   gem 'spring'
 
   # Use Capistrano for deployment
-  gem 'capistrano-rails', group: :development
-  gem 'capistrano3-unicorn', group: :development
-  gem 'capistrano-bundler', group: :development
+  gem 'capistrano-rails'
+  gem 'capistrano3-unicorn'
+  gem 'capistrano-bundler'
+  gem 'awesome_print'
 end
 
+gem 'capistrano-rvm'
+gem 'autoprefixer-rails'
