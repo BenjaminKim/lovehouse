@@ -1,6 +1,6 @@
 app_dir = '/home/ubuntu/lovehouse'
 
-worker_processes 4
+worker_processes 2
 working_directory app_dir + '/current'
 
 # Load app into the master before forking workers for super-fast
