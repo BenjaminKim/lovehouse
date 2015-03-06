@@ -6,7 +6,7 @@ set :rails_env, 'production'
 
 set :migration_role, ''
 
-set :deploy_to, '/var/www/lovehouse'
+set :deploy_to, '/home/ubuntu/lovehouse'
 set :scm, :git
 
 set :format, :pretty
