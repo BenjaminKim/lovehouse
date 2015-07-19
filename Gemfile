@@ -54,3 +54,4 @@ end
 
 gem 'capistrano-rvm'
 gem 'autoprefixer-rails'
+gem 'airbrussh', require: false
