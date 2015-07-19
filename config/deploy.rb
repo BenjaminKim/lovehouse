@@ -9,7 +9,7 @@ set :migration_role, ''
 set :deploy_to, '/home/ubuntu/lovehouse'
 set :scm, :git
 
-set :format, :pretty
+#set :format, :pretty
 set :log_level, :debug
 # set :pty, true
 
