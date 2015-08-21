@@ -6,9 +6,6 @@ set :rails_env, :production
 # Supports bulk-adding hosts to roles, the primary
 # server in each group is considered to be the first
 # unless any hosts have the primary property set.
-role :app, %w{ubuntu@home.petabytes.org}
-role :web, %w{ubuntu@home.petabytes.org}
-role :db,  %w{ubuntu@home.petabytes.org}
 
 # Extended Server Syntax
 # ======================
