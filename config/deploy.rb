@@ -20,8 +20,8 @@ set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/system}
 set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 set :keep_releases, 5
 
-set :unicorn_rack_env, :production
+#set :unicorn_rack_env, :production
 
-after 'deploy:publishing', 'unicorn:restart'
+#after 'deploy:publishing', 'unicorn:restart'
 
 fetch(:default_env).merge!(rails_env: :production)
