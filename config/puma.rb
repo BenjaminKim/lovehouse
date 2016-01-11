@@ -11,7 +11,7 @@ workers 2
 preload_app!
 daemonize true
 
-bind 'unix:///tmp/puma.sock'
+bind 'unix:/home/ubuntu/lovehouse/shared/tmp/sockets/puma.sock'
 
 # preload_app!
 prune_bundler
