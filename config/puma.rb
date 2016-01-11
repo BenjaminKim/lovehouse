@@ -6,8 +6,8 @@ pidfile 'tmp/pids/puma.pid'
 state_path 'tmp/pids/puma.state'
 stdout_redirect 'log/access_log', 'log/error_log', true
 
-threads 1,4
-workers 2
+threads 2
+workers 0
 preload_app!
 daemonize true
 
