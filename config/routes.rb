@@ -1,8 +1,8 @@
-LoveHouse::Application.routes.draw do
+Rails.application.routes.draw do
   %w(map two_room one_room home).each do |x|
     get "/#{x}" => "#{x}#index"
   end
-  root to: "home#index"
+  root to: 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
