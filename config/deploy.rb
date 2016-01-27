@@ -6,7 +6,7 @@ set :rails_env, 'production'
 
 set :migration_role, ''
 
-set :deploy_to, '/home/ubuntu/lovehouse'
+set :deploy_to, '/home/deploy/lovehouse'
 set :scm, :git
 
 #set :format, :pretty
@@ -23,5 +23,3 @@ set :keep_releases, 5
 #set :unicorn_rack_env, :production
 
 #after 'deploy:publishing', 'unicorn:restart'
-
-fetch(:default_env).merge!(rails_env: :production)
