@@ -2,46 +2,99 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-12 col-lg-12">
+    <div class="col-xs-12 col-md-12">
       <h1 class="label label-info">Two room</h1>
       <h1 class="label label-warning">사진보다 큰 집이며 전망도 좋으므로 실제로 보시기를 적극 권해드립니다.</h1>
     </div>
   </div>
   <p>
   <div class="row">
-    <div class="col-lg-3">
-      <legend>안방</legend>
+    <div class="col-xs-12">
+      <label class="btn-block btn-info">방이 비었을 때 찍은 사진</label>
+    </div>
+    <div class="col-lg-3 col-md-3 col-xs-12">
+      <legend>큰방</legend>
       <%= image_tag('two/main-room.jpg', class: 'img-rounded') %>
     </div>
 
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-3 col-xs-12">
       <legend>현관</legend>
       <%= image_tag('two/outdoor.jpg', class: 'img-rounded') %>
     </div>
 
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-3 col-xs-12">
       <legend>작은방</legend>
       <%= image_tag('two/small-room.jpg', class: 'img-rounded') %>
     </div>
 
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-3 col-xs-12">
       <legend>부엌</legend>
       <%= image_tag('two/kitchin.jpg', class: 'img-rounded') %>
     </div>
   </div>
 
   <div class="row">
-    <div class="col-lg-3">
-      <legend>화장실</legend>
-      <%= image_tag('two/restroom.jpg', class: 'img-rounded') %>
+    <div class="col-xs-12">
+      <label class="btn-block btn-info">현재 세입자분의 사진</label>
     </div>
-
-    <div class="col-sm-12 col-lg-9">
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>큰방</legend>
+      <%= image_tag('two/301호-큰방.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>큰방</legend>
+      <%= image_tag('two/301호-큰방2.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>큰방</legend>
+      <%= image_tag('two/301호-큰방3.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>거실</legend>
+      <%= image_tag('two/301호-거실.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>거실</legend>
+      <%= image_tag('two/301호-거실2.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>작은방</legend>
+      <%= image_tag('two/301호-작은방.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>작은방</legend>
+      <%= image_tag('two/301호-작은방2.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>작은방</legend>
+      <%= image_tag('two/301호-작은방3.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>주방</legend>
+      <%= image_tag('two/301호-주방.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>주방</legend>
+      <%= image_tag('two/301호-주방2.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>평면도</legend>
+      <%= image_tag('two/301호-평면도.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>화장실</legend>
+      <%= image_tag('two/301호-화장실.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-lg-6 col-md-6 col-xs-12">
+      <legend>세탁기</legend>
+      <%= image_tag('two/301호-세탁기.jpg', class: 'img-rounded') %>
+    </div>
+    <div class="col-sm-12">
       <legend>안방에서 찍은 전경</legend>
       <%= image_tag('two/landscape.jpg') %>
     </div>
   </div>
-  
+
   <p><%= link_to '가격 및 기타 정보 확인하러 가기', home_path(anchor: 'two_room'), class: 'btn btn-primary btn-block' %></p>
   <p><%= link_to '찾아 오시는 길', map_path, class: 'btn btn-info btn-block' %></p>
 </div>
