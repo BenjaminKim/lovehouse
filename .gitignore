@@ -13,10 +13,14 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*
+/tmp/*
 !/log/.keep
-/tmp
 /public/assets/
 #config/database.yml
 *.iml
 /.idea/
 /.generators
+!/tmp/.keep
+
+# Ignore Byebug command history file.
+.byebug_history
