@@ -42,7 +42,7 @@ GEM
     airbrussh (1.0.2)
       sshkit (>= 1.6.1, != 1.7.0)
     arel (7.0.0)
-    autoprefixer-rails (6.3.6.2)
+    autoprefixer-rails (6.3.7)
       execjs
     awesome_print (1.7.0)
     bootstrap (4.0.0.alpha3)
@@ -158,11 +158,11 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
-    spring (1.7.1)
+    spring (1.7.2)
     spring-watcher-listen (2.0.0)
       listen (>= 2.7, < 4.0)
       spring (~> 1.2)
-    sprockets (3.6.2)
+    sprockets (3.6.3)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.1.1)
@@ -207,20 +207,20 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   capistrano3-puma
-  coffee-rails
-  jbuilder (~> 2.0)
+  coffee-rails (~> 4.2)
+  jbuilder (~> 2.5)
   jquery-rails
   listen
   meta-tags
-  puma
+  puma (~> 3.0)
   rails (~> 5.0.0)
   rails-assets-tether (>= 1.1.0)!
-  sass-rails
+  sass-rails (~> 5.0)
   spring
-  spring-watcher-listen
+  spring-watcher-listen (~> 2.0.0)
   sqlite3
   therubyracer
-  turbolinks (~> 5.x)
+  turbolinks (~> 5)
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console
