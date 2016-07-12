@@ -6,13 +6,18 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
   <%=
+    ecovil = '신림동 이코빌'.freeze
     display_meta_tags(
       prefix: false,
       separator: ' -',
       reverse: true,
-      site: '이코빌',
+      site: ecovil,
       og: {
-        title: '신림동 원룸 투룸', image: '', site_name: '이코빌', url: home_url, description: ''
+        title: '신림동 원룸 투룸'.freeze,
+        image: image_url('overview.jpg'.freeze),
+        site_name: ecovil,
+        url: home_url,
+        description: '신림동 쑥고개 원룸 및 투룸',
       }
     )
   %>
