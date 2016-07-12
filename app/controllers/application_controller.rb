@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   private
     def report_page_views
-      key = "pv:#{Date.today}"
+      key = "love_house_pv:#{Date.today}"
       REDIS_POOL.with do |conn|
         conn.hincrby(key, controller_name, 1)
       end
