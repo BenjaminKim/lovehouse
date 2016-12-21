@@ -10,7 +10,6 @@ set :rails_env, 'production'
 set :migration_role, ''
 
 set :deploy_to, '/home/deploy/lovehouse'
-set :scm, :git
 
 #set :format, :pretty
 set :log_level, :debug
